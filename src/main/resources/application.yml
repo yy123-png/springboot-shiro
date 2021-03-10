@@ -1,0 +1,10 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: shiro-security
+  datasource:
+    url: jdbc:mysql://localhost:3306/shiro-security?useUnicode=true&useSSL=false&characterEncoding=utf8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
